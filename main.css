@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Spicy+Rice";
+@import url("https://fonts.googleapis.com/css?family=Spicy+Rice");
 
 body {
   margin: 30px auto;
-  max-width: 60%;
-  font-family: "Helvetica", "Arial", sans-serif;
+  max-width: 1000px;
+  font-family: 'Spicy Rice', cursive;
   line-height: 1.5;
   padding: 30px 20px;
   text-align: center;
@@ -11,9 +11,9 @@ body {
 }
 
 body {
-  background-imgs: imgs{Media/astronomersw.jpg};
+  background-image: image(Media/astronomersw.jpg);
   background-size: cover;
-  background-repeat: no repeat;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -26,7 +26,6 @@ h1 {
 }
 
 img {
-  display: block;
-  margin: 0px auto;
+  margin: 50px auto;
   width: 100%;
 }
