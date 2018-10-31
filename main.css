@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Spicy+Rice";
+
 body {
   margin: 30px auto;
   max-width: 60%;
@@ -6,6 +8,12 @@ body {
   padding: 30px 20px;
   text-align: center;
   align-content: center;
+}
+
+body {
+  background-imgs: imgs{Media/astronomersw.jpg};
+  background-size: cover;
+  background-repeat: no repeat;
 }
 
 a {
