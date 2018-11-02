@@ -10,11 +10,6 @@ body {
   align-content: center;
 }
 
-body {
-  background-image: image(Media/astronomersw.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 a {
 color: #FF6B6B;
@@ -25,7 +20,59 @@ h1 {
   padding: 20px 0px 10px 0px;
 }
 
+body{
+  background: url(Media/cs1.5.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+video {
+  margin-top: 50px;
+  position: center;
+}
+
+.snake-vid {
+  background-color: #96add3;
+  padding: 50px;
+}
+
 img {
-  margin: 50px auto;
+  margin: 50px;
   width: 100%;
 }
+
+.dropbtn {
+    background-color: #153B00;
+    font-family: 'Spicy Rice', cursive;
+    color: #D11C00;
+    padding: 18px;
+    font-size: 16px;
+    border: none;
+    min-width: 200px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #153B00;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #D11C00;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #2E2000;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #153B00z;}
