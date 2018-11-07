@@ -49,11 +49,11 @@ audio {
 }
 
 .dropbtn {
-    background-color: #153B00;
+    background-color: #738700;
     font-family: 'Spicy Rice', cursive;
-    color: #D11C00;
+    color: #2B0300;
     padding: 18px;
-    font-size: 16px;
+    font-size: 18px;
     border: none;
     min-width: 200px;
 }
@@ -66,14 +66,14 @@ audio {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #153B00;
+    background-color: #738700;
     min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: #D11C00;
+    color: #2B0300;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
