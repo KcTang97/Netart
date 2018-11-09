@@ -16,31 +16,72 @@ text-decoration: none;
 }
 
 h1 {
-  padding: 20px 0px 10px 0px;
+  font-family: 'Times New Roman', cursive;
+  font-size: 70px;
+  color: #BD0000;
 }
 
-body{
-  background: url(Media/cs1.5.jpg) no-repeat center fixed;
-  background-size: cover;
+.container {
+    position: relative;
+}
+
+.center {
+    color: #690000;
+    position: inherit;
+    margin-bottom: none;
+    font-size: 24px;
+    border: none;
+}
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.bottomleft {
+    position: absolute;
+    margin-top: 20%;
+    bottom: 8px;
+    left: 12px;
+    font-size: 10px;
+}
+
+.bottomright {
+    position: absolute;
+    margin:auto;
+    bottom: 8px;
+    right: 16px;
+    font-size: 18px;
+    width: 50%;
+    text-align: center;
 }
 
 
 img {
-  margin: auto;
+  margin: 0;
   margin-left: auto;
   margin-right: auto;
-  position: center;
 }
 
 video {
-  margin-top: 50px;
-  position: center;
+  margin-right: auto;
+  margin-top: auto;
 }
 
 audio {
-  margin-left: auto;
+  margin: auto;
+  margin-left: 20%;
   margin-right: auto;
-  position: center;
+  position: absolute;
 }
 
 .snake-vid {
@@ -55,10 +96,12 @@ audio {
     padding: 18px;
     font-size: 18px;
     border: none;
+    cursor: pointer;
     min-width: 200px;
 }
 
 .dropdown {
+    margin-left: 5%;
     position: relative;
     display: inline-block;
 }
