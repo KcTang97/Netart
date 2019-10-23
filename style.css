@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("image/head.png");
+  /* background-repeat: repeat; */
+}
+
+
+.button {
+  margin-top: 500px;
+  margin-left: 900px;
+  padding:20px 50px;
+  background-color: #facfe7;
+}
